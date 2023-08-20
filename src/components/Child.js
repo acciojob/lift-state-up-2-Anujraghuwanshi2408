@@ -10,7 +10,7 @@ const Child = ({prop}) => {
   return(
     <div className="child">
         <h1>Child Component</h1>
-        <input onChange={changeValue} />
+        <input onChange={changeValue} type="text" />
     </div> 
   )
 }
