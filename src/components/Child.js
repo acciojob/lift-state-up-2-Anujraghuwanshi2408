@@ -4,14 +4,14 @@ const Child = ({prop}) => {
      
 
     function changeValue(e){
-      prop(e.target.value)
+      prop(e.target.value) 
     }
 
   return(
     <div className="child">
         <h1>Child Component</h1>
         <input onChange={changeValue} />
-    </div>
+    </div> 
   )
 }
 export default Child;
